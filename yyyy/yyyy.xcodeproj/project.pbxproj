@@ -13,6 +13,7 @@
 		BC6182DB1CA3C6300038E62E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6182D91CA3C6300038E62E /* Main.storyboard */; };
 		BC6182DD1CA3C6300038E62E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC6182DC1CA3C6300038E62E /* Assets.xcassets */; };
 		BC6182E01CA3C6300038E62E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6182DE1CA3C6300038E62E /* LaunchScreen.storyboard */; };
+		BC6182E91CA3C70C0038E62E /* yyy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6182E81CA3C70C0038E62E /* yyy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC6182DC1CA3C6300038E62E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC6182DF1CA3C6300038E62E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC6182E11CA3C6300038E62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6182E71CA3C70C0038E62E /* yyy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yyy.h; sourceTree = "<group>"; };
+		BC6182E81CA3C70C0038E62E /* yyy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yyy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		BC6182C41CA3C6300038E62E = {
 			isa = PBXGroup;
 			children = (
+				BC6182E71CA3C70C0038E62E /* yyy.h */,
+				BC6182E81CA3C70C0038E62E /* yyy.m */,
 				BC6182CF1CA3C6300038E62E /* yyyy */,
 				BC6182CE1CA3C6300038E62E /* Products */,
 			);
@@ -152,6 +157,7 @@
 				BC6182D81CA3C6300038E62E /* ViewController.m in Sources */,
 				BC6182D51CA3C6300038E62E /* AppDelegate.m in Sources */,
 				BC6182D21CA3C6300038E62E /* main.m in Sources */,
+				BC6182E91CA3C70C0038E62E /* yyy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
