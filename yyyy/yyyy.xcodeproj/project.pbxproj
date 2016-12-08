@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		746C38F21DF8F19800AEA0B4 /* model.m in Sources */ = {isa = PBXBuildFile; fileRef = 746C38F11DF8F19800AEA0B4 /* model.m */; };
 		BC6182D21CA3C6300038E62E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6182D11CA3C6300038E62E /* main.m */; };
 		BC6182D51CA3C6300038E62E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6182D41CA3C6300038E62E /* AppDelegate.m */; };
 		BC6182D81CA3C6300038E62E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6182D71CA3C6300038E62E /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		746C38F01DF8F19800AEA0B4 /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		746C38F11DF8F19800AEA0B4 /* model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = model.m; sourceTree = "<group>"; };
 		BC6182CD1CA3C6300038E62E /* yyyy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yyyy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6182D11CA3C6300038E62E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC6182D31CA3C6300038E62E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,7 +51,6 @@
 				BC6182E71CA3C70C0038E62E /* yyy.h */,
 				BC6182E81CA3C70C0038E62E /* yyy.m */,
 				BC6182CF1CA3C6300038E62E /* yyyy */,
-				BC6182CE1CA3C6300038E62E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +60,14 @@
 				BC6182CD1CA3C6300038E62E /* yyyy.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		BC6182CF1CA3C6300038E62E /* yyyy */ = {
 			isa = PBXGroup;
 			children = (
+				746C38F01DF8F19800AEA0B4 /* model.h */,
+				746C38F11DF8F19800AEA0B4 /* model.m */,
 				BC6182D31CA3C6300038E62E /* AppDelegate.h */,
 				BC6182D41CA3C6300038E62E /* AppDelegate.m */,
 				BC6182D61CA3C6300038E62E /* ViewController.h */,
@@ -72,6 +77,7 @@
 				BC6182DE1CA3C6300038E62E /* LaunchScreen.storyboard */,
 				BC6182E11CA3C6300038E62E /* Info.plist */,
 				BC6182D01CA3C6300038E62E /* Supporting Files */,
+				BC6182CE1CA3C6300038E62E /* Products */,
 			);
 			path = yyyy;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6182D81CA3C6300038E62E /* ViewController.m in Sources */,
+				746C38F21DF8F19800AEA0B4 /* model.m in Sources */,
 				BC6182D51CA3C6300038E62E /* AppDelegate.m in Sources */,
 				BC6182D21CA3C6300038E62E /* main.m in Sources */,
 				BC6182E91CA3C70C0038E62E /* yyy.m in Sources */,
@@ -304,6 +311,7 @@
 				BC6182E61CA3C6300038E62E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
